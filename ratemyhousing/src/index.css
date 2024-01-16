@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: lightblue;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.beginning h1{
+  text-align: center;
+  justify-content: center;
+  font-size: 70px;
+}
+
+.beginning button {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 10vh;
+  width: 50vh;
+  background-color: lightblue; /* Set the initial background color to blue */
+  color: black; /* Set the text color to white */
+  border: none;
+  padding: 10px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add a smooth transition effect */
+  font-size: 25px;
+  border-radius: 20px;
+}
+
+.beginning button:hover {
+  background-color: white; /* Change the background color on hover */
+}
+
+.beginning button:active {
+  transform: translateY(4px);
+}
+
+.beginning p {
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  width: 500px; /* Adjust width as needed */
+  margin: 0 auto;
+  border: 10px solid #000000;
+  padding: 20px;
+  border-radius: 20px;
+  filter: drop-shadow(5px 5px 5px #000);
+}
+
+.tabs {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabs li {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tabs li.active {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #fff;
+  border-radius: 20px;
+}
+
+.tab-content {
+  padding: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.signup-formCSS input {
+  border-radius: 15px;
+  font-size: 25px;
+}
+
+.signup-formCSS button {
+  border-radius: 15px;
+  font-size: 25px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.signup-formCSS button:hover {
+  border-radius: 15px;
+  color: blue;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.signup-formCSS button:active {
+  transform: translateY(4px);
+}
+
+.login-formCSS input {
+  border-radius: 15px;
+  font-size: 25px;
+}
+
+.login-formCSS button {
+  border-radius: 15px;
+  font-size: 25px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.login-formCSS button:hover {
+  border-radius: 15px;
+  color: blue;
+  cursor: pointer;
+}
+
+.login-formCSS button:active {
+  transform: translateY(4px);
+}
+
+.imageGoogle img {
+  width: 10vh;
+  height: 10vh;
+  size: 20vh;
+}
