@@ -17,7 +17,7 @@ const Signup = () => {
     }
   };
 
-  const signInWithGoogle = async() => {
+  const signUpWithGoogle = async() => {
     try {
       await signInWithPopup(auth, googleProvider);
     }
@@ -41,8 +41,7 @@ const Signup = () => {
       <button type="submit" className="signup-formCSS" onClick={creatingAccount}>SIGN UP</button>
       <br />
       <br />
-      <button onClick={signInWithGoogle}>Sign in with Google!</button>
-      <img src={googleimage} className='imageGoogle'/>
+      <button onClick={signUpWithGoogle}>Sign up with Google! <img src={googleimage} className='imageGoogle'alt='google-logo'/></button>
     </form>
   );
 }
