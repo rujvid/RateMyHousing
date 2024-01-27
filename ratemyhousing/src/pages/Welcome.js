@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../index.css';
+import '../pages/auth.css';
 import Login from './login'; // Import Login component
 import Signup from './signup'; // Import Signup component
 import ttaposter from '../assets/images/bluepostertheta.svg';

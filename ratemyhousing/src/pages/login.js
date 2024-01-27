@@ -37,7 +37,7 @@ const Login = () => {
       />
       <br />
       <br />
-      <button type="submit" className="login-formCSS" onClick={/* NOW ADD FUNCTION THAT GOES TO NAVEYAS SCREEN */}>
+      <button type="submit" className="login-formCSS" >
         LOGIN
       </button>
     </form>
